@@ -1,0 +1,7 @@
+    ExpiresActive on
+    # on access
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    # or on modification
+    ExpiresByType image/jpg "modification plus 1 month"
+    ExpiresByType image/jpeg "modification plus 1 month"
